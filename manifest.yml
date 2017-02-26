@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 256M
+  instances: 1
+  domain: mybluemix.net
+  name: ikarol-tm-app
+  host: ikarol-tm-app
+  services:
+   - mongodb-9o
+  buildpack: sdk-for-nodejs
