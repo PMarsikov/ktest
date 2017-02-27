@@ -3,8 +3,8 @@ applications:
   memory: 256M
   instances: 1
   domain: mybluemix.net
-  name: ikarol-tm-app
-  host: ikarol-tm-app
+  name: ktest
+  host: ktest
   services:
    - mongodb-9o
   buildpack: sdk-for-nodejs
